@@ -27,8 +27,7 @@ Feature: Smart Bear Software
       | View all orders | View all products | Order |
 
   @Regression
-  Scenario: Validate "Check All" and "Uncheck All" links
-
+  Scenario: Validate “Check All” and “Uncheck All” links
     And user clicks on Login button
     Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/"
     When user clicks on "Check All" button
@@ -38,7 +37,6 @@ Feature: Smart Bear Software
 
   @Regression
   Scenario: Validate adding new order
-
     And user clicks on Login button
     Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/"
     When user clicks on "Order" menu item
@@ -52,8 +50,7 @@ Feature: Smart Bear Software
     And validate all information entered displayed correct with the order
 
   @Regression
-  Scenario: Validate "Delete Selected" button
-
+  Scenario: Validate “Delete Selected” button
     And user clicks on Login button
     Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/"
     When user clicks on "Check All" button

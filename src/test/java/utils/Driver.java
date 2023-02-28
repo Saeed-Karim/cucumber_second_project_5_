@@ -39,7 +39,7 @@ public class Driver {
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Long.parseLong(ConfigReader.getProperty("implicitWait")), TimeUnit.SECONDS);
         }
-        
+
         return driver;
     }
 
